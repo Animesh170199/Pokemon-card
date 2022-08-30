@@ -1,9 +1,5 @@
-
-
-
 import React,{ useEffect, useState } from "react";
 import PokemonThumbnail from "./Components/PokemonThumbnail";
-
 
 function App() {
   const [allPokemons,setAllPokemons] = useState([]);
@@ -54,7 +50,6 @@ function App() {
                   bs4 = {pokemon.stats[3].base_stat}
                   bs5 = {pokemon.stats[4].base_stat}
                   bs6 = {pokemon.stats[5].base_stat}
-                  
                  />
             )}
        </div>
